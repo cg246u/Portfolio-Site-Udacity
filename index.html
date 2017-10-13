@@ -1,62 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
 		<!-- Overall HTML structure and CSS given by following Udacity's 
 			Intro to HTML and CSS Class, Lesson 4: Bootstrap and Other Frameworks -->
+	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, intial-scale=1">
-		<title>Project #2 Portfolio</title>a
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Project #2 Portfolio</title>
 		<!-- Latest compiled and minified CSS using Bootstrap CDN -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
+	
 	<body>
 		<!-- Using Bootstrap grid system. Need to be contained inside a div with class "container" -->
 		<div class="container">
-			<div class="row">
+			<header class="row">
 				<div class="col-md-6">
 					<img class="title-logo" src="http://placehold.it/100x100" alt="Udacity logo">
 				</div>
+				
 				<div class="col-md-6 text-right text-uppercase">
 					<h1 class="title-super text-thin">Jane Doette</h1>
 					<h4 class="text-bold">Front-end Ninja</h4>
 				</div>
-			</div>
+			</header>
+			
 			<div class="row">
 				<div class="col-md-12">
 					<hr>
 				</div>
 			</div>
-			<div class="row">
+			
+			<main class="row">
 				<div class="col-md-12">
 					<!-- Main Image -->
 					<img class="img-responsive" src="http://placehold.it/1140x350" alt="Main Image">
 				</div>
-			</div>
-			<div class="row">
+			</main>
+			
+			<section class="row">
 				<div class="col-md-12">
 					<h2 class="text-muted">Featured Work</h2>
 				</div>
-			</div>
+			</section>
+			
 			<div class="row text-center">
 				<!-- Next row is divided into 3 columns -->
-				<div class="col-md-4">
+				<article class="col-md-4">
 					<img class="img-responsive" src="http://placehold.it/555x300" alt="Appify">
 					<h3 class="text-uppercase">Appify</h3>
 					<p class="text-bold">https://github.com/udacity/Appify</p>
-				</div>
-				<div class="col-md-4">
+				</article>
+				
+				<article class="col-md-4">
 					<img class="img-responsive" src="http://placehold.it/555x300" alt="Sunflower">
 					<h3 class="text-uppercase">Sunflower</h3>
 					<p class="text-bold">https://github.com/udacity/Sunflower</p>
-				</div>
-				<div class="col-md-4">
+				</article>
+				
+				<article class="col-md-4">
 					<img class="img-responsive" src="http://placehold.it/555x300" alt="Bokeh">
 					<h3 class="text-uppercase">Bokeh</h3>
 					<p class="text-bold">https://github.com/udacity/Bokeh</p>
-				</div>
+				</article>
+
 			</div>
 		</div>
 	</body>
